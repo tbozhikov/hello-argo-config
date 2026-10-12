@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello-argo
-        image: ghcr.io/tbozhikov/hello-argo-app:latest
+        image: ghcr.io/tbozhikov/hello-argo-app:8fa83d623a3f2362582a38becfc21ee6404c3980
         imagePullPolicy: Always
         ports:
         - containerPort: 80
